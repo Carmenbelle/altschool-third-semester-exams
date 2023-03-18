@@ -177,8 +177,8 @@
           </div>  
         </div>
 
-        <div class="py-8 ">
-          <h5 class="text-green-500 text-lg px-4 leading-10 ">Legal</h5>
+        <div class="2 ">
+          <h5 class="text-green-500 text-lg px-4">Legal</h5>
           <ul>
             <li>Business Policy</li>
             <li>Mode of Operation</li>
