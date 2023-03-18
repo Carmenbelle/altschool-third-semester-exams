@@ -52,7 +52,7 @@ export default {
   </h1>
 
   <div
-    class="grid p-8 md:p-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-6 md:space-x-10 gap-10"
+    class="grid p-8 md:p-16 md:grid-cols-2 lg:grid-cols-3 space-x-6 md:space-x-10 gap-10"
   >
     <ul
       class="border p-10 border-white drop-shadow-xl bg-slate-100"
