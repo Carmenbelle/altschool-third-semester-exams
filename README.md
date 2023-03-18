@@ -11,7 +11,7 @@ Register to Navigate to the Login Page
 Error Message when the user inputs an invalid detail
 ![Invalid](../auth-vue-app/src/assets/Screenshot%20(38).png)
 
-Input your login details to Navigate to the Products page
+Input your with correct details to Navigate to the Products page
 ![Login Page](../auth-vue-app/src/assets/Screenshot%20(36).png)
 
 Products Page

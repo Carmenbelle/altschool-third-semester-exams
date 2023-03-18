@@ -15,7 +15,9 @@
                 src="../assets/Logo3.png"
                 class="w-12 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
               />
-              <h5 class="text-orange-300 hidden md:block text-lg">e-commence</h5>
+              <h5 class="text-orange-300 hidden md:block text-lg">
+                e-commence
+              </h5>
             </div>
           </a>
         </div>
@@ -32,7 +34,7 @@
       <div
         class="text-[#1a2934] border py-4 mx-auto max-w-md bg-white bg-opacity-20 shadow-lg shadow-black-500/50 px-4 md:px-6"
       >
-        <div class="text-xl ">
+        <div class="text-xl">
           <h1 class="text-3xl p-6 text-center font-bold">SignUp Page</h1>
           <form @submit.prevent="signup">
             <h3 class="text-center text-white font-medium" v-if="error">

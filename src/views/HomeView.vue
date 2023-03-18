@@ -18,7 +18,9 @@
                     src="../assets/Logo3.png"
                     class="w-14 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
                   />
-                  <h5 class="text-orange-300 text-lg hidden md:block">e-commence</h5>
+                  <h5 class="text-orange-300 text-lg hidden md:block">
+                    e-commence
+                  </h5>
                 </div>
               </a>
             </div>
@@ -123,75 +125,81 @@
           </section>
 
           <footer class="w-full py-4 bg-gray-700">
-      <div
-        class="container flex flex-col md:flex-row item-start md:justify-around text-white py-10 p-28 "
-      >
-        <div>
-          <div>
-            <img
-              alt="logo"
-              src="../assets/Logo3.png"
-              class="w-10 md:w-12 cursor-pointer"
-            />
-          </div>
-          <p class="w-[200px] py-4">Hurry and all forms of Gadgets on-demand and pocket friendly prices with durable life span.</p>
-          <div>
-            <p class="text-green-500 text-lg">SPONSORS</p>
-            <div class="flex">
-              <a href="https://www.altschoolafrica.com/" target="_blank" >
-                <img src="../assets/alt1.png" alt="altschool" class="w-[100px] h-[100px]" />
-              </a>
-              <a href="https://talentql.com/" target="_blank" >
-                <img src="../assets/talentql-1.png" alt="talentQL" class="w-[100px] h-[100px]" />
-              </a>
+            <div
+              class="container flex flex-col md:flex-row item-start md:justify-around text-white py-10 p-28"
+            >
+              <div>
+                <div>
+                  <img
+                    alt="logo"
+                    src="../assets/Logo3.png"
+                    class="w-10 md:w-12 cursor-pointer"
+                  />
+                </div>
+                <p class="w-[200px] py-4">
+                  Hurry and all forms of Gadgets on-demand and pocket friendly
+                  prices with durable life span.
+                </p>
+                <div>
+                  <p class="text-green-500 text-lg">SPONSORS</p>
+                  <div class="flex">
+                    <a href="https://www.altschoolafrica.com/" target="_blank">
+                      <img
+                        src="../assets/alt1.png"
+                        alt="altschool"
+                        class="w-[100px] h-[100px]"
+                      />
+                    </a>
+                    <a href="https://talentql.com/" target="_blank">
+                      <img
+                        src="../assets/talentql-1.png"
+                        alt="talentQL"
+                        class="w-[100px] h-[100px]"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
 
+              <div>
+                <div class="py-14 text-center">
+                  <p class="text-green-500 leading-10 text-lg">Contact</p>
+                  <ul>
+                    <li class="flex space-x-4">
+                      <span>
+                        <font-awesome-icon icon="fa-solid fa-user-secret" />
+                      </span>
+                      <p>Federal house estate, Lugbe, Abuja</p>
+                    </li>
+                    <li class="flex space-x-4">
+                      <span>
+                        <font-awesome-icon icon="fa-solid fa-user-secret" />
+                      </span>
+                      <p>Federal house estate, Lugbe, Abuja</p>
+                    </li>
+                    <li class="flex space-x-4">
+                      <span>
+                        <font-awesome-icon icon="fa-solid fa-user-secret" />
+                      </span>
+                      <p>Federal house estate, Lugbe, Abuja</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+              <div class="2">
+                <h5 class="text-green-500 text-lg px-4">Legal</h5>
+                <ul>
+                  <li>Business Policy</li>
+                  <li>Mode of Operation</li>
+                  <li>Legal Right</li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div>
-          <div class=" py-14 text-center ">
-            <p class="text-green-500 leading-10 text-lg">Contact</p>
-            <ul>
-              <li class="flex space-x-4">
-                <span>
-                  <font-awesome-icon icon="fa-solid fa-user-secret" />
-                </span>
-                <p>Federal house estate, Lugbe, Abuja</p>
-              </li>
-              <li class="flex space-x-4">
-                <span>
-                  <font-awesome-icon icon="fa-solid fa-user-secret" />
-                </span>
-                <p>Federal house estate, Lugbe, Abuja</p>
-              </li>
-              <li class="flex space-x-4">
-                <span>
-                  <font-awesome-icon icon="fa-solid fa-user-secret" />
-                </span>
-                <p>Federal house estate, Lugbe, Abuja</p>
-              </li>
-            </ul>
-            
-          </div>  
-        </div>
-
-        <div class="2 ">
-          <h5 class="text-green-500 text-lg px-4">Legal</h5>
-          <ul>
-            <li>Business Policy</li>
-            <li>Mode of Operation</li>
-            <li>Legal Right</li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+          </footer>
         </div>
       </div>
     </section>
-
-    
   </div>
 </template>
 
@@ -203,4 +211,3 @@ export default {
   },
 };
 </script>
-
