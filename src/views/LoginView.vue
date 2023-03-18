@@ -84,7 +84,7 @@
                     src="../assets/Logo3.png"
                     class="w-12 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
                   />
-                  <h5 class="text-orange-300 text-lg">e-commence</h5>
+                  <h5 class="text-orange-300 hidden md:block text-lg">e-commence</h5>
                 </div>
               </a>
             </div>

@@ -30,7 +30,7 @@
         </nav>
       </header>
       <div
-        class="text-[#1a2934] p-8 md:p-0 border w-[420px] py-4 mx-auto max-w-md bg-white bg-opacity-20 shadow-lg shadow-black-500/50 px-4 md:px-6"
+        class="text-[#1a2934] border py-4 mx-auto max-w-md bg-white bg-opacity-20 shadow-lg shadow-black-500/50 px-4 md:px-6"
       >
         <div class="text-xl ">
           <h1 class="text-3xl p-6 text-center font-bold">SignUp Page</h1>
