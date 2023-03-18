@@ -8,11 +8,14 @@ Home Page to get Authenticated to the Product Page.
 Register to Navigate to the Login Page
 ![Screenshot (33)](https://user-images.githubusercontent.com/92027225/226140673-2d9facf9-0668-4f97-b344-748f67be9cb8.png)
 
+
 Error Message when the user inputs an invalid detail
 ![Screenshot (38)](https://user-images.githubusercontent.com/92027225/226140719-2c8fe558-5dfc-4f6a-b972-2119475c5b92.png)
 
+
 Input your with correct details to Navigate to the Products page
 ![Screenshot (36)](https://user-images.githubusercontent.com/92027225/226140750-1fa76c59-074d-4c62-9fff-31ab64c3fddb.png)
+
 
 Products Page
 ![Screenshot (34)](https://user-images.githubusercontent.com/92027225/226140764-58bd0544-d25a-46b3-8268-9e47139fd885.png)
