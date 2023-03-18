@@ -18,7 +18,7 @@
                     src="../assets/Logo3.png"
                     class="w-12 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
                   />
-                  <h5 class="text-orange-300 text-lg">e-commence</h5>
+                  <h5 class="text-orange-300 text-lg hidden md:block">e-commence</h5>
                 </div>
               </a>
             </div>
@@ -46,7 +46,7 @@
             </div>
 
             <div
-              class="flex flex-col space-y-10 md:space-y-0 md:flex-row p-10 md:p-20"
+              class="flex flex-col space-y-16 md:space-y-0 md:flex-row p-10 md:p-20"
             >
               <div class="md:w-1/2 mt-20 md:ml-8 space-y-6 md:space-y-4">
                 <h1 class="text-white text-start text-4xl font-bold">
@@ -63,11 +63,11 @@
                   for More Details...
                 </p>
               </div>
-              <div class="w-full md:w-1/2 flex justify-center mt-10 relative">
+              <div class="w-full md:w-1/2 flex justify-center md:mt-0 relative">
                 <img
                   alt="gadgets"
                   src="../assets/gadgets.png"
-                  class="w-full md:w-[2500px]"
+                  class="w-full md:w-[2500px] md:mt-0"
                 />
 
                 <div
@@ -203,3 +203,4 @@ export default {
   },
 };
 </script>
+

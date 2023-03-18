@@ -28,7 +28,7 @@ export default {
 </script>
 
 <template>
-      <header class="conainer flex justify-between  ">
+      <header class="conainer flex justify-between bg-blue-900">
       <div class="flex text-center ml-16 m-auto ">
         <a href="/">
           <img alt="logo" src="../assets/Logo3.png" class="w-16 md:hover:scale-104 transition duration-700 ease-in-out cursor-pointer " />
@@ -41,7 +41,7 @@ export default {
     </nav>
     </header>
   
-      <h1 class="mb-10 p-8 font-extrabold text-5xl flex justify-center ">Product Page</h1>
+      <h1 class="mt-8 p-8 font-extrabold text-5xl flex justify-center">Product Page</h1>
       
       <div class="grid p-8 md:p-16 md:grid-cols-3 space-x-8 md:space-x-10 gap-10">
     
