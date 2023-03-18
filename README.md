@@ -18,6 +18,14 @@ Input your with correct details to Navigate to the Products page
 Products Page
 ![Screenshot (34)](https://user-images.githubusercontent.com/92027225/226140764-58bd0544-d25a-46b3-8268-9e47139fd885.png)
 
+
+### Use this details to easily login
+- username: "Adminuser",
+
+- email: "adminuser@gmail.com", 
+
+- password: "12345678"
+
 ## Project setup
 ```
 npm install
