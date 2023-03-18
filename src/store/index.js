@@ -2,8 +2,8 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    login: false,
-    currentUser: null,
+    login: localStorage.getItem("token") ? true : false,
+    userToken: null,
   },
   getters: {
     getLogin(state) {
@@ -14,7 +14,7 @@ export default createStore({
     setLogin(state, payload) {
       state.login = payload;
     },
-    setCurrentUser(state, payload) {
+    setUserToken(state, payload) {
       state.currentUser = payload;
     },
   },
@@ -23,9 +23,12 @@ export default createStore({
       commit("setLogin", payload);
     },
     //set current user
-    setCurrentUser({ commit }, payload) {
+    setUserToken({ commit }, payload) {
       console.log("payload: ", payload);
-      commit("setCurrentUser", payload);
+      if (payload !== null) {
+        commit("setUserToken", true);
+      }
+      commit("setUserToken", payload);
     },
   },
   modules: {},

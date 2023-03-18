@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import store from "../store/index.js";
 
 const routes = [
   {
@@ -38,7 +39,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   const requiresAuth = to.matched.some((record) => record.meta.requiresAuth);
-  const isAuthenticated = localStorage.getItem("currentUser");
+  const isAuthenticated = store.getters.getLogin;
   if (requiresAuth && !isAuthenticated) {
     next("/login");
   } else {

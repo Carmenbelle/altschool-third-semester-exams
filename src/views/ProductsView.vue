@@ -18,8 +18,8 @@ export default {
 
   methods: {
     logout() {
-      localStorage.removeItem("currentUser");
-      this.$store.dispatch("setCurrentUser", null);
+      localStorage.removeItem("token");
+      this.$store.dispatch("setLogin", null);
       this.$router.push({ name: "login" });
     },
   },
@@ -29,13 +29,13 @@ export default {
 
 <template>
       <header class="conainer flex justify-between bg-blue-900">
-      <div class="flex text-center ml-16 m-auto ">
+      <div class="flex mt-2 ml-4 md:ml-16 ">
         <a href="/">
           <img alt="logo" src="../assets/Logo3.png" class="w-16 md:hover:scale-104 transition duration-700 ease-in-out cursor-pointer " />
         </a>
 
       </div>
-      <nav class="flex justify-end gap-x-20 mr-28 p-2  ">
+      <nav class="flex justify-end mr-4 md:mr-16 p-2  ">
       <button @click="logout" class="border text-center bg-slate-200 p-4 rounded-md font-medium text-lg text-gray-700 ">Logout</button> 
       
     </nav>

@@ -10,7 +10,7 @@
             }
         },
         mounted(){
-          if(localStorage.getItem('currentUser')){
+          if(this.$store.getters.getLogin){
             this.$router.push({name: 'products'})
           }
         },
@@ -53,10 +53,14 @@
                  return this.error = 'Incorrect Password'
                 }
 
-                localStorage.setItem('currentUser', JSON.stringify(user))
+                //generate a random token
+                const token = Math.random().toString(36).substr(2)
+                //save the token in the local storage
+
+                localStorage.setItem('token', token)
 
                 //set the current user in the store
-                this.$store.dispatch('setCurrentUser', user)
+                this.$store.dispatch('setLogin', true)
 
 
                 alert("Login was successful")

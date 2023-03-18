@@ -116,6 +116,12 @@ export default {
     };
   },
 
+  mounted() {
+    if (this.$store.getters.getLogin) {
+      this.$router.push({ name: "products" });
+    }
+  },
+
   methods: {
     checkErrors() {
       if (this.username === "" || this.username.length < 6) {
