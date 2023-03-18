@@ -62,7 +62,7 @@ export default {
       <!-- <li>{{ item.id }}</li> -->
       <div class="">
         <li class="p-4">
-          <img :src="item.images[0]" class="h-[200px] w-full" />
+          <img :src="item.images[0]" class="h-[200px] w-full md:p4" />
         </li>
         <div class="pt-6">
           <li class="text-green-700">{{ item.title }}</li>
