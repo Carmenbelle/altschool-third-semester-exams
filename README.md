@@ -3,7 +3,7 @@
 
 ## Authenticated Login and Registration App
 Home Page to get Authenticated to the Product Page.
-![Screenshot (34)](https://user-images.githubusercontent.com/92027225/226140636-4da6b635-d6e6-46fb-a56e-0c6e780bf050.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/92027225/226140803-c2a2cfda-6062-4b58-976b-e014dcbeb2ef.png)
 
 Register to Navigate to the Login Page
 ![Screenshot (33)](https://user-images.githubusercontent.com/92027225/226140673-2d9facf9-0668-4f97-b344-748f67be9cb8.png)
