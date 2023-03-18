@@ -1,7 +1,7 @@
 <template>
   <div class="container overflow-y-scroll">
     <section>
-      <div class="hero_section w-full h-[700px] md:h-[600px] relative">
+      <div class="w-full h-[700px] md:h-[600px] relative">
         <img
           alt="background"
           src="../assets/backgl.jpeg"
@@ -10,20 +10,20 @@
 
         <div class="w-full h-full absolute inset-0 bg-[#374efa] bg-opacity-80">
           <header class="conainer flex justify-between p-2 mb-8">
-            <div class="text-center ml-8 md:ml-16 m-auto">
+            <div class="text-center ml-4 md:ml-16 m-auto">
               <a href="/">
                 <div class="flex">
                   <img
                     alt="logo"
                     src="../assets/Logo3.png"
-                    class="w-12 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
+                    class="w-14 md:w-16 md:hover:scale-150 transition duration-700 ease-in-out cursor-pointer"
                   />
                   <h5 class="text-orange-300 text-lg hidden md:block">e-commence</h5>
                 </div>
               </a>
             </div>
             <nav
-              class="flex justify-end gap-x-6 md:gap-x-16 mr-8 md:mr-28 p-2 md:mb-2"
+              class="flex justify-end gap-x-2 md:gap-x-16 mr-4 md:mr-28 p-2 md:mb-2"
             >
               <router-link
                 to="/login"
